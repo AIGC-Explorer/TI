@@ -1,7 +1,8 @@
 <div align="center">
   <h1>TIMotion</h1>
   
-  <h3>[CVPR 2025] TIMotion: Temporal and Interactive Framework for Efficient Human-Human Motion Generation </h3>
+  <h3>TIMotion: Temporal and Interactive Framework for Efficient Human-Human Motion Generation </h3>
+  <h3><span style="color: red;">CVPR 2025</span></h3> 
   
   <a href='https://aigc-explorer.github.io/TIMotion-page/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2408.17135'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
   
@@ -85,10 +86,12 @@ If you find our work useful in your research, please consider citing:
 <a id="bib_cit"></a>
 
 ```
-@inproceedings{wang2025TIMotion,
-      title={TIMotion: Temporal and Interactive Framework for Efficient Human-Human Motion Generation}, 
-      author={Yabiao Wang and Shuo Wang and Jiangning Zhang and Ke Fan and Jiafu Wu and Zhucun Xue and Yong Liu},
-      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-      year={2025}
+@inproceedings{wang2025timotion,
+  title={TIMotion: Temporal and Interactive Framework for Efficient Human-Human Motion Generation},
+  author={Wang, Yabiao and Wang, Shuo and Zhang, Jiangning and Fan, Ke and Wu, Jiafu and Xue, Zhucun and Liu, Yong},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={7169--7178},
+  year={2025}
+}
 ```
 
