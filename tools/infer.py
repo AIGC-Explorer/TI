@@ -113,14 +113,14 @@ def get_args_parser():
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     ## dataloader  
-    parser.add_argument('--exp-name', default='TIMotion', type=str)
-    parser.add_argument('--n-head', default=16, type=int)
-    parser.add_argument('--n-layer', default=5, type=int)
+    parser.add_argument('--exp_name', default='TIMotion', type=str)
+    parser.add_argument('--n_head', default=16, type=int)
+    parser.add_argument('--n_layer', default=5, type=int)
     parser.add_argument('--LPA', action='store_true', help='whether use LPA')
-    parser.add_argument('--conv-layers', default=1, type=int)
-    parser.add_argument('--dilation-rate', default=1, type=int)
+    parser.add_argument('--conv_layers', default=1, type=int)
+    parser.add_argument('--dilation_rate', default=1, type=int)
     parser.add_argument("--norm", type=str, default='AdaLN', choices = ['AdaLN', 'LN', 'BN', 'GN'])
-    parser.add_argument('--latent-dim', default=512, type=int)
+    parser.add_argument('--latent_dim', default=512, type=int)
     parser.add_argument("--pth", type=str, default=None, help='resume pth')
     
     return parser.parse_args()
@@ -132,6 +132,10 @@ if __name__ == '__main__':
     infer_cfg = get_config("configs/infer.yaml")
 
     args = get_args_parser()
+    model_cfg.NUM_HEADS = args.n_head
+    model_cfg.NUM_LAYERS = args.n_layer
+    model_cfg.CHECKPOINT = args.pth
+    model_cfg.LATENT_DIM = args.latent_dim
     model_cfg.LPA = args.LPA
     model_cfg.conv_layers = args.conv_layers
     model_cfg.dilation_rate = args.dilation_rate
