@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>TIMotion</h1>
+  <!-- 注释内容 <h1>TIMotion</h1>
   
-  <h3>TIMotion: Temporal and Interactive Framework for Efficient Human-Human Motion Generation </h3>
+  <h3>TIMotion: Temporal and Interactive Framework for Efficient Human-Human Motion Generation </h3>  -->
   <h3><span style="color: red;">CVPR 2025</span></h3> 
   
   <a href='https://aigc-explorer.github.io/TIMotion-page/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2408.17135'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
