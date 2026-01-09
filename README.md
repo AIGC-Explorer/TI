@@ -10,8 +10,8 @@
    
 </div>
 
-## Introduction
-This repository is an implementation of [TIMotion(CVPR 2025)](https://arxiv.org/abs/2408.17135). If you find this project helpful, please cite our paper ([BibTeX](#bib_cit)). Thank you!
+<!-- 注释内容 ## Introduction
+This repository is an implementation of [TIMotion(CVPR 2025)](https://arxiv.org/abs/2408.17135). If you find this project helpful, please cite our paper ([BibTeX](#bib_cit)). Thank you! -->
 
 
 
